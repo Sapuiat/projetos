@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teclado</title>
+    <style>
+        
+        @keyframes chroma {
+            from {
+                color: #6666ff;
+            }
+            15% {
+                color: #0099ff;
+            }
+
+            50% {
+                color: #00ff00;
+            }
+
+            75% {
+                color: #ff3399;
+            }
+
+            100% {
+                color: #6666ff;
+            }
+        }  
+        body {
+            background-color: rgb(61, 61, 61);
+            width: 95vw;
+            height: 94vh;
+            font-family: Arial, Helvetica, sans-serif;
+            position: relative;
+        }
+        table {
+            border-collapse: separate;
+            text-align: center;
+            border: 5px solid black;
+            padding: 10px;
+            margin: auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            background-color: rgb(46, 46, 46); 
+        }
+        td {    
+            border: 1px solid black;
+            width: 40px;
+            padding: 3px;
+            background-color: black;
+        }
+        td {
+            animation: chroma 8s linear infinite;
+        }
+        td.no-border {
+            border: none;
+            width: 1px;   
+            background-color: rgb(46, 46, 46);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tbody>
+            <tr>
+                <td>ESC</td>
+                <td class="no-border"></td>
+                <td>F1</td>              
+                <td>F2</td>
+                <td>F3</td>
+                <td>F4</td>
+                <td>F5</td>
+                <td>F6</td>
+                <td>F7</td>
+                <td>F8</td>
+                <td>F9</td>
+                <td>F10</td>
+                <td>F11</td>
+                <td>F12</td>
+                <td class="no-border space"></td>
+                <td>PTSC</td>
+                <td>SCLK</td>
+                <td>PABK</td>
+            </tr>
+            <tr>
+                <td>"</td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>0</td>
+                <td>-</td>
+                <td>=</td>
+                <td>&leftarrow;</td>
+                <td class="no-border"></td>
+                <td>INS</td>
+                <td>HOME</td>
+                <td>PGUP</td>
+                <td class="no-border"></td>
+                <td>NUM</td>
+                <td>&#x2000&#x2000/&#x2000&#x2000</td>
+                <td>*</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>TAB</td>
+                <td>Q</td>
+                <td>W</td>
+                <td>E</td>
+                <td>R</td>
+                <td>T</td>
+                <td>Y</td>
+                <td>U</td>
+                <td>I</td>
+                <td>O</td>
+                <td>P</td>
+                <td>`</td>
+                <td>[</td>
+                <td rowspan="2">ENTER</td>
+                <td class="no-border"></td>
+                <td>DEL</td>
+                <td>END</td>
+                <td>PGDN</td>
+                <td class="no-border"></td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td rowspan="2">+</td>
+            </tr>
+            <tr>
+                <td>CAPS</td>
+                <td>A</td>
+                <td>S</td>
+                <td>D</td>
+                <td>F</td>
+                <td>G</td>
+                <td>H</td>
+                <td>J</td>
+                <td>K</td>
+                <td>L</td>
+                <td>Ç</td>
+                <td>~</td>
+                <td>]</td>
+                <td class="no-border"></td>
+                <td class="no-border"></td>
+                <td class="no-border"></td>
+                <td class="no-border"></td>
+                <td class="no-border"></td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>SHIFT</td>
+                <td>\</td>
+                <td>Z</td>
+                <td>X</td>
+                <td>C</td>
+                <td>V</td>
+                <td>B</td>
+                <td>N</td>
+                <td>M</td>
+                <td>,</td>
+                <td>.</td>
+                <td>;</td>
+                <td>/</td>
+                <td>SHIFT</td>
+                <td class="no-border"></td>
+                <td class="no-border"></td>
+                <td>&uparrow;</td>
+                <td class="no-border"></td>
+                <td class="no-border"></td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td rowspan="2">&leftarrow;</td>
+            </tr>
+            <tr>
+                <td>CTRL</td>
+                <td>WIN</td>
+                <td>ALT</td>
+                <td colspan="7">SPACE</td>
+                <td>Alt</td>
+                <td>FN</td>
+                <td>INF</td>
+                <td>CTRL</td>
+                <td class="no-border"></td>
+                <td>&LeftArrow;</td>
+                <td>&downarrow;</td>
+                <td>&rightarrow;</td>
+                <td class="no-border"></td>
+                <td colspan="2">0INS</td>
+                <td>.del</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

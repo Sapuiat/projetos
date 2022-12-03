@@ -8,6 +8,7 @@
  <li><a href="https://sapuiat.github.io/projetos/paralax/index.html">Efeito paralax</a> 15/11/2022
  <li><a href="https://sapuiat.github.io/projetos/tabela-estados/index.html">Tabela de estados</a> 18/11/2022
  <li><a href="https://sapuiat.github.io/projetos/tabela-chroma/index.html">Teclado-chroma</a> 22/11/2022
+ <li><a href="https://sapuiat.github.io/projetos/projeto-social/index.html">Redes-sociais</a> 03/12/2022
  
 
 
